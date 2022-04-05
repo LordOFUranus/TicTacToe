@@ -34,7 +34,7 @@ public class Main {
             System.out.println("Установите размер поля");
             fieldSize = scanner.nextInt();
             if (fieldSize>3) {
-                System.out.println("Полей больше 3x3, для победы соберите последовательность из 4 значков");
+                System.out.println("Поле больше 3x3, для победы соберите последовательность из 4 значков");
                 winLine=4;
             } else winLine =3;
             playRound();
