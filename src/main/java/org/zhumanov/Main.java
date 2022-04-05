@@ -128,7 +128,6 @@ public class Main {
             }
         }
 
-
         return false;
 
         /*if (field[0][0] == dot && field[0][1] == dot && field[0][2] == dot) return true;
@@ -175,7 +174,7 @@ public class Main {
         } while (!isCellValid(y, x));
 
         field[y][x] = dotAi;
-    }
+    } ///в будущем можно переделать на блокировку, а потом можно и менять сложность через интерфейс Behavior, по-моему
 
     private static boolean checkDraw() {
         for (int y = 0; y < fieldSizeY; y++) {
